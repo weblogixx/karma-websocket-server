@@ -1,0 +1,31 @@
+{
+  "name": "karma-websocket-server",
+  "version": "0.0.0",
+  "description": "Karma plugin to create a websocket server for unit tests",
+  "main": "index.js",
+  "scripts": {
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://weblogixx@github.com/weblogixx/karma-websocket-server.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "websocket-server",
+    "websocket",
+    "ws",
+    "mocking"
+  ],
+  "author": "Christian Schilling (cs@weblogixx.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weblogixx/karma-websocket-server/issues"
+  },
+  "homepage": "https://github.com/weblogixx/karma-websocket-server#readme",
+  "dependencies": {
+    "websocket": "^1.0.22"
+  }
+}
