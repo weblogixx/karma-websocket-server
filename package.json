@@ -1,6 +1,6 @@
 {
   "name": "karma-websocket-server",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Karma plugin to create a websocket server for unit tests",
   "main": "index.js",
   "scripts": {
